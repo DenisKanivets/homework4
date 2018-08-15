@@ -21,7 +21,7 @@
     </div>
 </header>
 <section>
-    <div class="form">
+    <form>
         <img class="form__greenImg" src="images/shape.png" alt="green square">
         <div class="form__signUp">Sign Up</div>
         <a class="form__logIn" href="">Log In</a>
@@ -38,21 +38,20 @@
         <img class="horisontalLine1" src="images/line.png" alt="line">
         <div class="form__or">or</div>
         <img class="horisontalLine2" src="images/line.png" alt="line">
-        <input type="text" class="input1" placeholder="   First Name">
-        <input type="text" class="input2" placeholder="   Last Name">
-        <input type="text" class="input3" placeholder="   Email">
-        <input type="text" class="input4" placeholder="   Choose Password">
-        <input type="text" class="input5" placeholder="   Confirm Password">
-        <div class="checkbox">
-            <input class="checkbox__check" type="checkbox">
-            <div class="custom">
-                <div class="checkmark"></div>
-            </div>
+        <input type="text" class="input1" placeholder="First Name">
+        <input type="text" class="input2" placeholder="Last Name">
+        <input type="text" class="input3" placeholder="Email">
+        <input type="text" class="input4" placeholder="Choose Password">
+        <input type="text" class="input5" placeholder="Confirm Password">
+        <label for="myCheckbox" class="checkbox">
+            <input id="myCheckbox" type="checkbox" class="checkbox__check">
+            <div class="customBorder"></div>
+            <div class="customCheckmark"></div>
             <span class="checkbox__txt1">Agree our</span>
             <a href="" class="checkbox__txt2"> Terms & Conditions</a>
-        </div>
+        </label>
         <button class="btn" formaction="">Create Account</button>
-    </div>
+    </form>
 </section>
 </body>
 </html>
